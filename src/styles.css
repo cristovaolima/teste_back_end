@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: sans-serif;
+}
+.app {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-matriz {
+    display: flex;
+    flex-direction: row;
+}
+.matriz {
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.matriz p {
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    margin-bottom: 15px;
+    height: 30px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #E5E4E2;
+}
+form button {
+    height: 40px;
+    border-radius: 7px;
+    background-color: cornflowerblue;
+    font-size: large;
+    font-weight: bold;
+}
+select {
+    margin-bottom: 15px;
+    height: 35px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #E5E4E2;
+}
+label {
+    font-size: large;
+    font-weight: bold;
+}
